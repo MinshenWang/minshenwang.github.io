@@ -1,22 +1,22 @@
 # Site settings
-title: 个人博客
-email: 2606537612@qq.com
-description: > #个人博客
+title: 个人主页
+email: 
+description: > #个人主页
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://trace-night.github.io" # the base hostname & protocol for your site
+url: "https://minshenwang.github.io" # the base hostname & protocol for your site
 
 # Paginate（分页）
-#gems: [jekyll-paginate]
+gems: [jekyll-paginate]
 # 分页时每页博文数量
-#paginate: 10
-#paginate_path: "page:num"
+paginate: 10
+paginate_path: "page:num"
 
 
 # Build settings
 # 语法高亮
-#highlighter: pygments
-# markdown解释器
-#markdown: kramdown
+highlighter: pygments
+ markdown解释器
+markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
@@ -29,19 +29,21 @@ favicon: /assets/image/favicon.ico
 
 # 博客作者相关
 author:
-  name: trace-night
-  email: 2606537612@qq.com
-  link: http://trace-night.github.io/
-  weibo: http://www.weibo.com
-  weibo_username: trace-night
-  github: https://github.com/trace-night
-  github_username: trace-night
+  name: minshenwang
+  email: 
+ # link: http://trace-night.github.io/
+ # weibo: http://www.weibo.com
+ # weibo_username: trace-night
+  github: https://minshenwang.github.io
+  github_username: minshenwang
 
 
 locals:
   tags: 标签
   about: 关于
-  active: 技术
+  active: 项目记录
+  active: 技术记录
+  active: 生活记录
 subscribe_rss: /pages/rss.xml
 
 # 头像

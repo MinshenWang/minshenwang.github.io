@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 王敏燊的个人主页
+title: 敏燊的个人主页
 ---
 ---
 
@@ -8,7 +8,9 @@ title: 王敏燊的个人主页
 
 
 联系方式：
-
+tel：19210105201
+微信：
+QQ：
 ---
 
 {% include disqus.html %}
