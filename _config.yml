@@ -45,9 +45,9 @@ author:
 locals:
   tags: 标签
   about: 关于
-  project: 项目记录
-  tech: 技术记录
-  life: 生活记录
+  active: 项目记录
+  #: 技术记录
+  #: 生活记录
 
 # categories: 
 
