@@ -1,19 +1,19 @@
 # Site settings
-title: "个人主页"
-description: "这是一个IT人的主页"
-keywords: "IT,网络安全,生活,旅行"
+title: 个人主页
+description: 这是一个IT人的主页
+keywords: IT,网络安全,生活,旅行
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://minshenwang.github.io" # the base hostname & protocol for 
-language: zh-CN
-timezone: UTC
+#language: zh-CN
+#timezone: UTC
 # your site
 
 # Paginate（分页）
-gems: [jekyll-paginate]
+#gems: [jekyll-paginate]
 
 # 分页时每页博文数量
-paginate: 10
-paginate_path: "page:num"
+#paginate: 10
+#paginate_path: "page:num"
 
 
 # Build settings
@@ -39,7 +39,7 @@ author:
  # weibo: http://www.weibo.com
  # weibo_username: trace-night
   github: https://github.com/minshenwang
-
+  github_username: minshenwang
 
 #categories:
   
@@ -53,7 +53,7 @@ locals:
 
 # categories: 
 
-subscribe_rss: /pages/rss.xml
+subscribe_rss: /404.html
 
 # 头像
 avatar: /assets/image/avatar.png
