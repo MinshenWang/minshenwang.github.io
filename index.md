@@ -1,7 +1,7 @@
 
 
 layout: page
-title: 敏燊的个人主页
+title: 一个IT人的主页
 
 ---
 
