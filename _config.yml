@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://minshenwang.github.io" # the base hostname & protocol for 
 language: zh-CN
 timezone: UTC
-your site
+# your site
 
 # Paginate（分页）
 gems: [jekyll-paginate]
@@ -18,9 +18,9 @@ paginate_path: "page:num"
 
 # Build settings
 # 语法高亮
-highlighter: pygments
- markdown解释器
-markdown: kramdown
+#highlighter: pygments
+# markdown解释器
+#markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
@@ -33,21 +33,23 @@ favicon: /assets/image/favicon.ico
 
 # 博客作者相关
 author:
-  name: minshenwang
+  name: Minshen Wang
   email: anikewang@qq.com
- # link: http://trace-night.github.io/
+  link: https://minshenwang.github.io
  # weibo: http://www.weibo.com
  # weibo_username: trace-night
-  github: https://minshenwang.github.io
-  github_username: minshenwang
+  github: https://github.com/minshenwang
+
+
+#categories:
+  
+
 
 
 locals:
   tags: 标签
   about: 关于
-  active: 项目记录
-  #: 技术记录
-  #: 生活记录
+  active: 技术
 
 # categories: 
 
