@@ -1,12 +1,16 @@
 # Site settings
-title: 个人主页
-email: 
-description: > #个人主页
+title: "个人主页"
+description: "这是一个IT人的主页"
+keywords: "IT,网络安全,生活,旅行"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://minshenwang.github.io" # the base hostname & protocol for your site
+url: "https://minshenwang.github.io" # the base hostname & protocol for 
+language: zh-CN
+timezone: UTC
+your site
 
 # Paginate（分页）
 gems: [jekyll-paginate]
+
 # 分页时每页博文数量
 paginate: 10
 paginate_path: "page:num"
@@ -30,7 +34,7 @@ favicon: /assets/image/favicon.ico
 # 博客作者相关
 author:
   name: minshenwang
-  email: 
+  email: anikewang@qq.com
  # link: http://trace-night.github.io/
  # weibo: http://www.weibo.com
  # weibo_username: trace-night
@@ -41,9 +45,12 @@ author:
 locals:
   tags: 标签
   about: 关于
-  active: 项目记录
-  active: 技术记录
-  active: 生活记录
+  project: 项目记录
+  tech: 技术记录
+  life: 生活记录
+
+# categories: 
+
 subscribe_rss: /pages/rss.xml
 
 # 头像
@@ -60,7 +67,8 @@ js: /assets/js/
 
 # 网站图片路径
 image: /assets/image/
-# image: 
+ 
+
 
 # disqus 设置
 #disqus:
