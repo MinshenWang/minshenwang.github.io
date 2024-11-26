@@ -51,7 +51,7 @@ a {
    Sidebar => Tags & Posts List
 \*---------------------------------*/
 #sidebar {
-  width: 585px;
+  width: 460px;
   height: 100%;
   float: left;
 }
@@ -95,9 +95,9 @@ a {
    Tags
 \*---------------------------------*/
 #tags {
-  width: 165px;
+  width: 160px;
   height: 100%;
-  background: linear-gradient(to right, #686A68, #686A68);
+  background: linear-gradient(to right, #006650, #006650);   
   border-right: 1px solid #3c4149;
   box-shadow: inset -15px 0 15px -15px #222222;
   float: left;
@@ -215,7 +215,7 @@ a {
    Posts List
 \*---------------------------------*/
 #posts-list {
-  width: 400px;
+  width: 300px;
   height: 100%;
   background: linear-gradient(to right, #fafafa, #fafafa);
   border-right: 1px solid #e5e8ec;
@@ -358,12 +358,13 @@ a {
    Post
 \*---------------------------------*/
 #post {
+  width: auto;
   height: 100%;
   color: #000000;
   font-size: 18px;
   line-height: 1.5;
   background: white;
-  overflow-x: hidden;
+  overflow-x: auto;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch; }
   #post ::selection {
@@ -377,8 +378,6 @@ a {
   @media screen and (max-width: 585px) {
     #post {
       font-size: 14px; } }
-
-
 
 #pjax {
   padding: 0 5% 30px; }
@@ -403,7 +402,7 @@ a {
       margin: 0 auto; } }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400; }
+  font-weight: normal; }
 
 #page__title {
   margin: 0;
@@ -526,7 +525,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 strong {
-  font-weight: 600; }
+  font-weight: bold; }
 
 blockquote {
   margin: 1.5em 0 1.5em 2em;
