@@ -1,16 +1,12 @@
 # Site settings
-title: 个人主页
-description: 这是一个IT人的主页
-keywords: IT,网络安全,生活,旅行
+title: 王敏燊的个人主页
+email: anikewang@qq.com
+description: > #王敏燊的个人主页
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://minshenwang.github.io" # the base hostname & protocol for 
-#language: zh-CN
-#timezone: UTC
-# your site
+url: "https://minshenwang.github.io" # the base hostname & protocol for your site
 
 # Paginate（分页）
 #gems: [jekyll-paginate]
-
 # 分页时每页博文数量
 #paginate: 10
 #paginate_path: "page:num"
@@ -35,43 +31,32 @@ favicon: /assets/image/favicon.ico
 author:
   name: Minshen Wang
   email: anikewang@qq.com
-  link: https://minshenwang.github.io
- # weibo: http://www.weibo.com
- # weibo_username: trace-night
+  link: http://lingxiankong.github.io/
+  weibo: http://www.weibo.com/
+  weibo_username: Minshen Wang
   github: https://github.com/minshenwang
-  github_username: minshenwang
-
-#categories:
-  
-
+  github_username: Minshen Wang
 
 
 locals:
   tags: 标签
   about: 关于
   active: 技术
-
-# categories: 
-
-subscribe_rss: /404.html
+subscribe_rss: /pages/atom.xml
 
 # 头像
 avatar: /assets/image/avatar.png
-
-
+# avatar: http://7xpapo.com1.z0.glb.clouddn.com/blog/assets/image/favicon.ico
 # 网站CSS路径
 css: /assets/css/
-
-
+# css: http://7xpapo.com1.z0.glb.clouddn.com/blog/assets/css/
 # 网站JS路径
 js: /assets/js/
-
-
+# js: http://7xpapo.com1.z0.glb.clouddn.com/blog/assets/js/
 # 网站图片路径
 image: /assets/image/
- 
-
+# image: http://7xpapo.com1.z0.glb.clouddn.com/blog/assets/image/
 
 # disqus 设置
-#disqus:
-  #shortname: minshen
+disqus:
+  shortname: MinshenWang

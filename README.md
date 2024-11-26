@@ -1,2 +1,1 @@
-# minshen
-minshen的个人主页
+# Welcome to my blog
