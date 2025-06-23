@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 勇往直前，脚踏实地
+title: 脚踏实地，勇往直前
 ---
 ***
 
